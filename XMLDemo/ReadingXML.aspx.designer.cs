@@ -49,6 +49,33 @@ namespace XMLDemo {
         protected global::System.Web.UI.WebControls.Button BtnXPathDocument;
         
         /// <summary>
+        /// BtnXReader control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnXReader;
+        
+        /// <summary>
+        /// BtnLINQ control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnLINQ;
+        
+        /// <summary>
+        /// btnLINQ2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLINQ2;
+        
+        /// <summary>
         /// txtDisplay control.
         /// </summary>
         /// <remarks>

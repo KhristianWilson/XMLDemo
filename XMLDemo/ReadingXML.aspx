@@ -21,7 +21,10 @@
         <div>
             <asp:Button ID="BtnXPath" runat="server" Text="XPath Single Node" OnClick="BtnXPath_Click" />
             <asp:Button ID="BtnXPathSearch" runat="server" Text="XPath Recursion Seach" OnClick="BtnXPathSearch_Click"/>
-            <asp:Button ID="BtnXPathDocument" runat="server" Text="XReader" OnClick="BtnXPathDocument_Click"/>
+            <asp:Button ID="BtnXPathDocument" runat="server" Text="XPathDocument" OnClick="BtnXPathDocument_Click"/>
+            <asp:Button ID="BtnXReader" runat="server" Text="XReader" OnClick="BtnXReader_Click"/>
+            <asp:Button ID="BtnLINQ" runat="server" Text="LINQ Simple" OnClick="BtnLINQ_Click"/>
+             <asp:Button ID="btnLINQ2" runat="server" Text="LINQ Complex" OnClick="btnLINQ2_Click"/>
             <br />
             <br />
             <br />
