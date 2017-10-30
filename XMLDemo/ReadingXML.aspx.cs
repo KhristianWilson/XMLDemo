@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
+using System.Xml.XPath;
 
 namespace XMLDemo
 {
@@ -24,7 +25,7 @@ namespace XMLDemo
             txtDisplay.InnerText = food.InnerXml;
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void BtnXPathSearch_Click(object sender, EventArgs e)
         {
             txtDisplay.InnerText = "";
             XmlDocument document = new XmlDocument();
@@ -36,9 +37,19 @@ namespace XMLDemo
             }
         }
 
-        protected void Button3_Click(object sender, EventArgs e)
+        protected void BtnXPathDocument_Click(object sender, EventArgs e)
         {
+            txtDisplay.InnerText = "";
+            XPathDocument xPathDocument = new XPathDocument(Server.MapPath(("~/Menu.xml")));
+            XPathNavigator navigator = xPathDocument.CreateNavigator();
 
+            XPathNodeIterator iterator = navigator.SelectChildren(XPathNodeType.
+            Element);
+
+            while (iterator.MoveNext())
+            {
+                txtDisplay.InnerText += (iterator.Current.Value) + Environment.NewLine; 
+            }
         }
     }
 }

@@ -20,8 +20,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:Button ID="BtnXPath" runat="server" Text="XPath Single Node" OnClick="BtnXPath_Click" />
-            <asp:Button ID="BtnXPathSearch" runat="server" Text="XPath Recursion Seach" OnClick="Button2_Click"/>
-            <asp:Button ID="BtnXPathDocument" runat="server" Text="Button" OnClick="Button3_Click"/>
+            <asp:Button ID="BtnXPathSearch" runat="server" Text="XPath Recursion Seach" OnClick="BtnXPathSearch_Click"/>
+            <asp:Button ID="BtnXPathDocument" runat="server" Text="XReader" OnClick="BtnXPathDocument_Click"/>
             <br />
             <br />
             <br />
