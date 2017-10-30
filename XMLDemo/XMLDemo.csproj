@@ -75,9 +75,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MenuXSLT.xml" />
     <Content Include="Menu.xml" />
     <Content Include="ReadingXML.aspx" />
     <Content Include="Web.config" />
+    <Content Include="XSLT.xslt" />
+    <Content Include="XSLTBuiltPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,6 +90,13 @@
     </Compile>
     <Compile Include="ReadingXML.aspx.designer.cs">
       <DependentUpon>ReadingXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XSLTBuiltPage.aspx.cs">
+      <DependentUpon>XSLTBuiltPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XSLTBuiltPage.aspx.designer.cs">
+      <DependentUpon>XSLTBuiltPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
